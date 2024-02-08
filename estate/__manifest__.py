@@ -4,6 +4,8 @@
     'application': True,  # This line says the module is an App, and not a module
     'depends': ['base'],  # dependencies
     'data': [
+        'views/estate_views.xml',
+        'views/estate_menus.xml',
         'security/ir.model.access.csv',
     ],
     'installable': True,
