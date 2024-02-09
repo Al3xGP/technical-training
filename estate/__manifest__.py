@@ -6,6 +6,7 @@
     'data': [
         'views/estate_views.xml',
         'views/estate_menus.xml',
+        'views/estate_list_view.xml',
         'security/ir.model.access.csv',
     ],
     'installable': True,
