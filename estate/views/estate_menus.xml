@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>    
-    <menuItem id="estate_property_root_menu" name="EP Root">
-        <menuItem id="estate_property_navbar_menu" name="EP Nav Bar">
-            <menuItem id="estate_property_menu_action" action="estate_property_action"/>        
-        </menuItem>
-    </menuItem>    
+    <menuitem id="estate_property_root_menu" name="EP Root">
+        <menuitem id="estate_property_navbar_menu" name="EP Nav Bar">
+            <menuitem id="estate_property_drop_menu" name="EP Dropdown" action="estate_property_action"/>        
+        </menuitem>
+    </menuitem>    
 </odoo>
